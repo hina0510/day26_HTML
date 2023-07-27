@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<!--
+<body text="white" bgcolor="black">
+-->
+<body>
+	<div style="background: red;" align="center">test div</div>
+	<h3 align="center">test h3</h3>
+	<span style="background: red;" align="right">test span</span><br>
+	<font align="right">test font</font>
+<hr>
+	thead : 테이블의 제목 부분으로 사용<br>
+	th : 제목 부분을 넣을 때 사용하며 thead와 함께 사용한다<br>
+	tbody : 테이블의 내용 부분<br>
+	td : 내용 부분 tbody와 함께 사용
+	<table border="1">
+		<thead>
+		<tr>
+			<th>이름</th><th>나이</th><th>주소</th>
+		</tr>
+		</thead>
+		
+		<tbody>
+		<tr>
+			<td align="right"><b>홍길동</b></td><td>20</td><td>산골짜기</td>
+		</tr>
+		</tbody>
+	</table>
+	
+<hr>
+	<table border="1">
+		<tr>
+			<td colspan="2">111</td><td>111</td><!-- colspan 은 오른쪽칸과 결합 -->
+		</tr>
+		<tr>
+			<td rowspan="2">111</td><td>111</td><td>111</td><!-- rowspan 은 아래쪽칸과 결합 -->
+		</tr>
+		<tr>
+			<td>111</td><td>111</td>
+		</tr>
+	</table>
+<hr>
+	<table border="1" height="200" width="300" bgcolor="khaki"><!-- border은 테두리선 -->
+		<tr bgcolor="red">
+			<th width="200">11</th><!-- th는 항목 -->
+			<th>11</th>
+			<th>11</th>
+		</tr>
+		<tr height="100">
+			<th>11</th><!-- th는 항목 -->
+			<th>11</th>
+			<th>11</th>
+		</tr>
+		<tr>
+			<td>22</td><!-- td는 속성 -->
+			<td>22</td>
+			<td>22</td>
+		</tr>
+	</table>
+<hr>
+	<em>강조하고 싶은 텍스트. 기울임체 글꼴</em><br>
+	<strong>중요한 텍스트. 굵은 글꼴</strong><br>
+	<mark>주의깊게 볼 텍스트. 노란색 표시</mark><br>
+	<b>단순히 굵은 글꼴</b><br>
+	<small>주의사항, 법적 제한, 저작권 등</small><br>
+	기본글꼴<sup>위첨자</sup><sub>아래첨자</sub>
+<hr>
+<font face="궁서체" color="blue">기본 크기는 size=3</font>
+	<font size="7">글자 크기를 7로</font>
+	<font size="6">글자 크기를 6로</font>
+	<font size="5">글자 크기를 5로</font>
+	<font size="4">글자 크기를 4로</font>
+	<font size="3">글자 크기를 3로</font>
+	<font size="2">글자 크기를 2로</font>
+	<font size="1">글자 크기를 1로</font>
+<hr>
+	<h1>문서의 제목 태그(큰수부터 점점 작은 숫자를 사용)</h1>
+	<h2>문서 내에서 작은 숫자를 사용 후 큰 수를 사용하지 않음</h2>
+	<h3>문서의 제목</h3>
+	<h4>문서의 제목</h4>
+	<h5>문서의 제목</h5>
+	<h6>문서의 제목</h6>
+<hr>
+	<h3><span>블록에 인라인 추가 가능</span></h3>
+	<span><h3>인라인에 블록 추가 오류 위험</h3></span>
+<hr>
+블록 : 화면 전체를 감싼다<br>
+인라인 : 내용이 들어온 공간까지만 사용한다<br>
+	<h1 style="background:aqua;">블록요소</h1>
+	<p style="background:fuchsia;">블록요소</p>
+	<div style="background:lime;">블록요소</div>
+	<span style="background:maroon;">인라인 요소</span>
+	<label style="background:teal;">인라인 요소</label>
+<hr>
+	하나의 문장 끝(단락 구분 용)
+	<p>또 하나의 문장</p>
+	또 하나의 문장
+<hr>
+	안녕<br><br>
+	하세<br><br>
+	요
+</body>
+</html>
